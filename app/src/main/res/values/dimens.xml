@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--//状态栏高度-->
+    <dimen name="bar">24dp</dimen>
+    <!--//标题栏高度-->
+    <dimen name="toolbar">48dp</dimen>
+    <!--//状态栏和标题栏的总高度-->
+    <dimen name="total_bar">70dp</dimen>
+
+    <!--登录注册按钮的大小-->
+    <dimen name="btn_36">18sp</dimen>
+    <dimen name="login_h">48dp</dimen>
+    <dimen name="login_w">330dp</dimen>
+
+
+    <!--actionBar-->
+    <dimen name="bar_30">15dp</dimen>
+    <dimen name="bar_font_36">18sp</dimen>
+    <dimen name="bar_font_34">17sp</dimen>
+    <dimen name="bar_96">48dp</dimen>
+    <dimen name="bar_font_38">19sp</dimen>
+    <dimen name="bar_font_40">20sp</dimen>
+    <!--条目-->
+    <dimen name="item_96">48dp</dimen>
+    <!--条目据顶部间距/图片左右间距-->
+    <dimen name="jl_20">10dp</dimen>
+    <dimen name="jl_30">15dp</dimen>
+    <dimen name="jl_40">20dp</dimen>
+    <!--字体大小-->
+    <dimen name="font_20">10sp</dimen>
+    <dimen name="font_22">11sp</dimen>
+    <dimen name="font_24">12sp</dimen>
+    <dimen name="font_26">13sp</dimen>
+    <dimen name="font_28">14sp</dimen>
+    <dimen name="font_30">15sp</dimen>
+    <dimen name="font_32">16sp</dimen>
+    <dimen name="font_34">17sp</dimen>
+    <dimen name="font_38">19sp</dimen>
+</resources>

@@ -3,4 +3,40 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--加粗的字体-->
+    <color name="bold_font">#d3333333</color>
+    <!--主色调-->
+    <color name="FirstColor">#2298e8</color>
+    <!--辅助色1-->
+    <color name="SecondColor">#4481eb</color>
+    <!--辅助色2-->
+    <color name="ThirdColor">#04befe</color>
+    <!--点睛色-->
+    <color name="BetterColor">#e74c3c</color>
+    <!--白色-->
+    <color name="White">#ffffff</color>
+    <!--红色-->
+    <color name="red">#FF0000</color>
+
+    <!--我的页面价格颜色-->
+    <color name="title_color">#2a71eb</color>
+    <!--我的页面价格颜色-->
+    <color name="title_color2">#fea740</color>
+    <!--主要&标题-->
+    <color name="font_3">#333333</color>
+    <!--辅助&描述-->
+    <color name="font_6">#666666</color>
+    <!--次级&提示-->
+    <color name="font_9">#999999</color>
+    <!--填写&提示-->
+    <color name="font_b">#bbbbbb</color>
+    <!--描边&分割线-->
+    <color name="font_d">#dddddd</color>
+    <!--背景色-->
+    <color name="background">#f3f3f3</color>
+    <!--边框颜色-->
+    <color name="square_line">#bfbfbf</color>
+    <!--透明色-->
+    <color name="bg_transparent_0fff">#00ffffff</color>
 </resources>

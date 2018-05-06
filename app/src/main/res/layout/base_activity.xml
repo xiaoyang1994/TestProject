@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="48dp">
+        android:layout_height="@dimen/bar_96"
+        android:layout_marginBottom="@dimen/jl_20"
+        android:background="@color/ThirdColor">
 
         <TextView
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="标题" />
+            android:text="标题"
+            android:textColor="@color/White"
+            android:textSize="@dimen/font_38" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="右边" />
+            android:layout_marginRight="@dimen/bar_30"
+            android:text="右边"
+            android:textColor="@color/White"
+            android:textSize="@dimen/font_30" />
     </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
 </LinearLayout>
