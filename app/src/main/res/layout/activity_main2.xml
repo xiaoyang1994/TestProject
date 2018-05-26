@@ -3,12 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.activity.Main2Activity">
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
         android:text="点击" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:text="开始录音"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:text="停止按钮"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:text="播放录音"/>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:text="暂停播放"/>
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:text="停止播放"/>
+
 </LinearLayout>

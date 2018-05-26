@@ -5,8 +5,6 @@ import android.app.Application;
 import android.content.pm.ApplicationInfo;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.test.xy.demo.modle.net.ApiService;
-import com.test.xy.demo.modle.net.OkhttpUtils;
 
 import java.util.Stack;
 
@@ -43,8 +41,8 @@ public class BaseApplication extends Application {
         activityLifeManager = new ActivityLifeManager();
         mContext.registerActivityLifecycleCallbacks(activityLifeManager);
         //网络请求初始化
-        OkhttpUtils.init(this);
-        ApiService.initApiService();
+//        OkhttpUtils.init(this);
+//        ApiService.initApiService();
     }
 
     /**

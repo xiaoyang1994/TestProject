@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Demo</string>
+    <string name="app_name">Demo</string>\
+
+    <string-array name="tab_data">
+        <item>头条</item>
+        <item>要闻</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>科技</item>
+    </string-array>
 </resources>
